@@ -90,6 +90,7 @@ header nav ul li a:hover i{
 header nav ul li .active i{
     color: var(--themeColor);
 }
+
 /* Footer */
 header .footer{
     text-align: center;
@@ -244,6 +245,18 @@ main{
 /* Same divider is used for all sections */
 .divider{
     width: 150px;
+    height: 4px;
+    background-color: var(--themeColor);
+    border-radius: 30px;
+}
+.divider1{
+    width: 80px;
+    height: 4px;
+    background-color: var(--themeColor);
+    border-radius: 30px;
+}
+.divider2{
+    width: 130px;
     height: 4px;
     background-color: var(--themeColor);
     border-radius: 30px;
