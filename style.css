@@ -641,7 +641,7 @@ main{
     font-size: 25px;
     font-weight: 600;
 }
-#portfolio .port-row .port-item .port-info h4 + p{
+#portfolio .port-row .port-item .port-info p{
     color: var(--bgColor);
     font-size: 14px;
 }
