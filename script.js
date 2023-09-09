@@ -1,37 +1,24 @@
 // Header toggle
 
-let MenuBtn = document.getElementById("MenuBtn")
+let MenuBtn = document.getElementById('MenuBtn')
 
-MenuBtn.addEventListener('click',function(e){
+MenuBtn.addEventListener('click', function(e) {
     document.querySelector('body').classList.toggle('mobile-nav-active');
     this.classList.toggle('fa-xmark')
-})
+   
+  })
+ 
 
-// Active Link State on Scroll
+  // Typing Effect
 
-// Get All Links
-
-// let navlinks = document.querySelector('nav ul li a')
-
-// Get All Sections
-
-// let sections = document.getElementById('section')
-
-// window.addEventListener('scroll', function(){
-//     const scrollPos = this.window.scrollY
-//     sections.forEach(secton => {
-//         if(scrollPos > secton.offsetTop && scrollPos < (secton.offsetTop + section.offsetHeight)){
-//             navlinks.forEach(link => {
-//                 link.classList.remove('active')
-//                 if(secton.getAttribute('id') === link.getAttribute('href').substring(1)){
-//                     link.classList.add('active')
-//                 }
-//             })
-//         }
-//     })
-// })
-
-
+  let typed = new Typed('.auto-input',{
+    strings: ['Frond-End developer!','UI Designer','Frond-End Designer'],
+    typeSpeed: 100,
+    backSpeed:100,
+    backDelay:2000,
+    loop:true,
+  })
+  
 
 
 
