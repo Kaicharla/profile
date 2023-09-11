@@ -733,7 +733,12 @@ main{
     color: var(--textColor);
     font-size: 12px;
     font-weight: 600;
-    
+    text-decoration: none;
+}
+#contact .contact-row .contact-left .info a{
+    text-decoration: none;
+    color: var(--textColor) ;
+    font-size: 12px;
 }
 #contact .contact-row .contact-right{
     flex-basis: 60%;
