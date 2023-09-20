@@ -569,21 +569,16 @@ main{
         flex-basis: 100%;
     }
 }
-@media only screen and (max-width:510px) {
-    .resume-co{
-        width: 85%;
-        margin: 0 0 0 150px;
-    }
-}
-@media only screen and (max-width:344px) {
+
+/* @media only screen and (max-width:344px) {
     .resume-co{
         width: 100%;
         margin: 0 0 0 150px;
     }
-}
-@media only screen and (max-width:510px) {
+} */
+@media only screen and (max-width:670px) {
     .resume-full{
-        width: 40%;
+        width: 100%;
     }
 }
 
